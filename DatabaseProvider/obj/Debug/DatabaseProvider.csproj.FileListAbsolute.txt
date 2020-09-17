@@ -1,0 +1,11 @@
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\DatabaseProvider.dll.config
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\DatabaseProvider.dll
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\DatabaseProvider.pdb
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\EntityFramework.dll
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.dll
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\EntityFramework.xml
+D:\HoaLD20\ASP.NET\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.xml
+D:\HoaLD20\ASP.NET\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CopyComplete
+D:\HoaLD20\ASP.NET\DatabaseProvider\obj\Debug\DatabaseProvider.dll
+D:\HoaLD20\ASP.NET\DatabaseProvider\obj\Debug\DatabaseProvider.pdb
