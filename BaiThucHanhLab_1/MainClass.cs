@@ -7,15 +7,32 @@ namespace BaiThucHanhLab_1
 {
     class MainClass
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
             ProManager pm = new ProManager();
-            int exit = ProManager.Input();
-            while (exit != 0)
+            
+            while (true)
             {
-                switch (0)
+                int exit = pm.Menu();
+               
+                switch (exit)
                 {
                     case 1:
+                        {
+                            pm.EnterProduct();
+                            break;
+                        }
+                    case 2:
+                        {
+                            pm.Output();
+                            break;
+                        }
+                    case 0:
+                        {
+                            Console.WriteLine("See you again <3.");
+                            Console.WriteLine("\n\n\n-------------------------------END---------------------------------");
+                            return;
+                        }
                 }
 
             }

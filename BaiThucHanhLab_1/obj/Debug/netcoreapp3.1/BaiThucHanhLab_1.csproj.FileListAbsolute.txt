@@ -1,0 +1,13 @@
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.csprojAssemblyReference.cache
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.AssemblyInfoInputs.cache
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.AssemblyInfo.cs
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.exe
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.deps.json
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.runtimeconfig.json
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.runtimeconfig.dev.json
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.dll
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\bin\Debug\netcoreapp3.1\BaiThucHanhLab_1.pdb
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.dll
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.pdb
+D:\HoaLD20\ASP.NET\BaiThucHanhLab_1\obj\Debug\netcoreapp3.1\BaiThucHanhLab_1.genruntimeconfig.cache
