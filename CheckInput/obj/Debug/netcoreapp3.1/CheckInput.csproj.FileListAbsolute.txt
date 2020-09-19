@@ -1,0 +1,13 @@
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.exe
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.deps.json
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.runtimeconfig.json
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.runtimeconfig.dev.json
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.dll
+D:\HoaLD20\ASP.NET\CheckInput\bin\Debug\netcoreapp3.1\CheckInput.pdb
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.csprojAssemblyReference.cache
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.AssemblyInfoInputs.cache
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.AssemblyInfo.cs
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.dll
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.pdb
+D:\HoaLD20\ASP.NET\CheckInput\obj\Debug\netcoreapp3.1\CheckInput.genruntimeconfig.cache

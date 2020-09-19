@@ -81,6 +81,10 @@ namespace BaiThucHanhLab_1
                 try
                 {
                     id = Console.ReadLine();
+                    if(id.Length == 5)
+                    {
+
+                    }
                 }
                 catch
                 {
