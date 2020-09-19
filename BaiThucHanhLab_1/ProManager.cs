@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BaiThucHanhLab_1
@@ -18,7 +19,7 @@ namespace BaiThucHanhLab_1
             Console.WriteLine("2.Show list product.");
             Console.WriteLine("0.Exit.");
             Console.Write("Please choose: ");
-            int choose = Convert.ToInt32(Console.ReadLine());
+            int choose = ProManager.checkInt();
             return choose;
         }
         /*
@@ -28,7 +29,7 @@ namespace BaiThucHanhLab_1
         {
             //Nhập số lượng sp
             Console.Write("+ Enter number of product: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+            int num = ProManager.checkInt();
 
             for (int i = 0; i < num; i++)
             {
@@ -37,16 +38,16 @@ namespace BaiThucHanhLab_1
                 Console.WriteLine("-Product 1:");
                 //nhập id sp
                 Console.Write("\t--Please enter id number: ");
-                product.IdPro = Convert.ToString(checkID());
+                product.IdPro = ProManager.checkid();
                 //nhập tên sp
                 Console.Write("\t--Please enter name:");
-                product.NamePro = Console.ReadLine();
+                product.NamePro = ProManager.checkname();
                 //nhập giá sp
                 Console.Write("\t--Please enter price: ");
-                product.Price = Convert.ToDouble(Console.ReadLine());
+                product.Price = ProManager.checkPrice();
                 //nhập số lượng sp
                 Console.Write("\t--Please enter quantity: ");
-                product.Quantity = Convert.ToDouble(Console.ReadLine());
+                product.Quantity = ProManager.checkquantity();
                 //thêm sp vào arraylist
                 listPro.Add(product);
                 Console.WriteLine("\n\tProduct added success!");
@@ -67,48 +68,135 @@ namespace BaiThucHanhLab_1
             }
 
         }
-        /*
-         Kiểm tra id sản phẩm
-         */
-        public string checkID()
+        public static int checkInt()
         {
-            /*
-             Include 5 character, the 2 first character is “SP” and 3 digits
-             */
+            string num;
+
+            while (true)
+            {
+                num = Console.ReadLine();
+                if (!string.IsNullOrEmpty(num) && num.All(Char.IsDigit))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.Write("sai dinh dang gui, nhap lai di: ");
+                }
+            }
+            return Convert.ToInt32(num);
+        }
+
+        public static string checkid()
+        {
             string id;
             while (true)
             {
-                try
+                id = Console.ReadLine().ToString();
+                if (!string.IsNullOrEmpty(id) && id.Length == 5)
                 {
-                    id = Console.ReadLine();
-                    if(id.Length == 5)
+                    string subID = id.Substring(0, 2);
+                    Console.WriteLine(subID);
+                    if (subID == "SP")
                     {
-
+                        string subID_2 = id.Substring(Math.Max(2, 0));
+                        Console.WriteLine(subID_2);
+                        if (subID_2.All(Char.IsDigit))
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write("Phan con lai la so moi dung!: ");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("ki tu dau tien la SP nhap lai di: ");
                     }
                 }
-                catch
+                else
                 {
-                    Console.Write("id can not be null! Enter again: ");
-                    id = Console.ReadLine();
-
+                    Console.Write("ko dc nhap null va do dai gom 5 ki tu: ");
                 }
-
             }
             return id;
         }
-        /*
-        public string checkName()
-        {
 
-        }
-        public int checkPrice()
+        public static string checkname()
         {
+            string name;
 
+            while (true)
+            {
+                name = Console.ReadLine();
+                if (!string.IsNullOrEmpty(name))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.Write("sai dinh dang gui, nhap lai di: ");
+                }
+            }
+            return name;
         }
-        public int checkQuan()
+
+        public static double checkPrice()
         {
-
+            string price;
+            double price2;
+            while (true)
+            {
+                price = Console.ReadLine();
+                if (!string.IsNullOrEmpty(price) && price.All(Char.IsDigit))
+                {
+                    price2 = Convert.ToDouble(price);
+                    if (price2 <= 100)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.Write("Price more than 100. Enter again: ");
+                    }
+                }
+                else
+                {
+                    Console.Write("Price can not null, must be number!: ");
+                }
+            }
+            return price2;
         }
-        */
+
+
+        public static int checkquantity()
+        {
+            string quan;
+            int quan2;
+            while (true)
+            {
+                quan = Console.ReadLine();
+                if (!string.IsNullOrEmpty(quan) && quan.All(Char.IsDigit))
+                {
+                    quan2 = Convert.ToInt32(quan);
+                    if (quan2 > 0 && quan2 < 100)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.Write("Quantity more than 0 and less than 100. Enter again: ");
+                    }
+                }
+                else
+                {
+                    Console.Write("Quantity can not null, must be number!: ");
+                }
+            }
+            return quan2;
+        }
+
+
     }
 }
