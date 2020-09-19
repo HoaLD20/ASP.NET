@@ -8,6 +8,9 @@ namespace BaiThucHanhLab_1
     class ProManager
     {    
         public ArrayList listPro = new ArrayList();
+        /*
+         Hiển thị menu ra
+         */
         public int Menu()
         {          
             Console.WriteLine("----------MENU----------");
@@ -15,35 +18,43 @@ namespace BaiThucHanhLab_1
             Console.WriteLine("2.Show list product.");
             Console.WriteLine("0.Exit.");
             Console.Write("Please choose: ");
-            int choose = checkIntMenu();
+            int choose = Convert.ToInt32(Console.ReadLine());
             return choose;
         }
+        /*
+         Nhập thông tin sản phẩm
+         */
         public void EnterProduct()
         {
+            //Nhập số lượng sp
             Console.Write("+ Enter number of product: ");
-            int num = checkInt();
+            int num = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < num; i++)
             {
+                
                 Product product = new Product();
                 Console.WriteLine("-Product 1:");
-
+                //nhập id sp
                 Console.Write("\t--Please enter id number: ");
                 product.IdPro = Convert.ToString(checkID());
-
-
+                //nhập tên sp
                 Console.Write("\t--Please enter name:");
                 product.NamePro = Console.ReadLine();
+                //nhập giá sp
                 Console.Write("\t--Please enter price: ");
                 product.Price = Convert.ToDouble(Console.ReadLine());
+                //nhập số lượng sp
                 Console.Write("\t--Please enter quantity: ");
                 product.Quantity = Convert.ToDouble(Console.ReadLine());
-
-
+                //thêm sp vào arraylist
                 listPro.Add(product);
                 Console.WriteLine("\n\tProduct added success!");
             }
         }
+        /*
+         Hiển thị danh sách sản phẩm
+         */
         public void Output()
         {
             Console.WriteLine("===================List Product ===================");
@@ -56,94 +67,44 @@ namespace BaiThucHanhLab_1
             }
 
         }
-       
-        public static int checkIntMenu()
-        {
-            int num;
-            try
-            {
-                num = Convert.ToInt32(Console.ReadLine());
-                if (num < 0 || num > 2)
-                {
-                    Console.WriteLine("Invalid Input!");
-                }
-                else
-                {
-                    return num;
-                } 
-            }catch
-            {
-                Console.WriteLine("Invalid Input! ex");
-            }
-            return 5;
-        }
-
-        public static int checkInt()
-        {
-            int num;
-            try
-            {
-                while (true)
-                {
-                    num = Convert.ToInt32(Console.ReadLine());
-                    if (num <= 0)
-                    {
-                        Console.Write("Invalid Input! Enter again: ");
-                    }
-                    else
-                    {
-                        break;
-                    }
-                }
-                return num;
-            }
-            catch 
-            {
-                Console.Write("Invalid Input ex! Enter again: ");
-            }
-            return 5;
-            
-        }
-
+        /*
+         Kiểm tra id sản phẩm
+         */
         public string checkID()
         {
+            /*
+             Include 5 character, the 2 first character is “SP” and 3 digits
+             */
             string id;
-            Boolean check = true;
-            
-            while (check)
+            while (true)
             {
                 try
                 {
-                    id = Convert.ToString(Console.ReadLine());
-
-
-                    if (id != null)
-                    {
-                        if (!id[0].Equals("S") && !id[1].Equals("P"))
-                        {
-                            Console.Write("Erorr! Please id number again (SPxxx): ");
-
-                        }
-                        else
-                        {
-                            check = false;
-                            return id;
-
-                        }
-                    }
-                    
-
+                    id = Console.ReadLine();
                 }
                 catch
                 {
-                    Console.Write("Erorr! Please id number again (SPxxx): ");
+                    Console.Write("id can not be null! Enter again: ");
+                    id = Console.ReadLine();
 
                 }
 
             }
             return id;
         }
+        /*
+        public string checkName()
+        {
 
+        }
+        public int checkPrice()
+        {
 
+        }
+        public int checkQuan()
+        {
+
+        }
+        */
     }
 }
