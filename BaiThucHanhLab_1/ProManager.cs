@@ -59,10 +59,10 @@ namespace BaiThucHanhLab_1
         public void Output()
         {
             Console.WriteLine("===================List Product ===================");
-            Console.WriteLine("|ID\t|Name|\tPrice\t|Quantity");
+            Console.WriteLine("\t|ID\t|Name\t|Price\t|Quantity");
             foreach (Product pro in listPro)
             {
-                Console.WriteLine("{0}\t{1}\t{2}\t{3}", pro.IdPro, pro.IdPro,
+                Console.WriteLine("\t{0}\t{1}\t{2}\t{3}", pro.IdPro, pro.IdPro,
                     pro.Price, pro.Quantity);
                 
             }
@@ -96,11 +96,11 @@ namespace BaiThucHanhLab_1
                 if (!string.IsNullOrEmpty(id) && id.Length == 5)
                 {
                     string subID = id.Substring(0, 2);
-                    Console.WriteLine(subID);
+                   
                     if (subID == "SP")
                     {
                         string subID_2 = id.Substring(Math.Max(2, 0));
-                        Console.WriteLine(subID_2);
+                        
                         if (subID_2.All(Char.IsDigit))
                         {
                             break;
@@ -149,17 +149,25 @@ namespace BaiThucHanhLab_1
             while (true)
             {
                 price = Console.ReadLine();
-                if (!string.IsNullOrEmpty(price) && price.All(Char.IsDigit))
+                if (!string.IsNullOrEmpty(price))
                 {
-                    price2 = Convert.ToDouble(price);
-                    if (price2 <= 100)
+                    try
                     {
-                        break;
+                        price2 = Convert.ToDouble(price);
+                        if (price2 >= 100)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write("Price more than 100. Enter again: ");
+                        }
                     }
-                    else
+                    catch
                     {
-                        Console.Write("Price more than 100. Enter again: ");
+                        Console.Write("Sai Dinh dang, nhap lai di: ");
                     }
+                    
                 }
                 else
                 {
@@ -170,24 +178,32 @@ namespace BaiThucHanhLab_1
         }
 
 
-        public static int checkquantity()
+        public static double checkquantity()
         {
             string quan;
-            int quan2;
+            double quan2;
             while (true)
             {
                 quan = Console.ReadLine();
                 if (!string.IsNullOrEmpty(quan) && quan.All(Char.IsDigit))
                 {
-                    quan2 = Convert.ToInt32(quan);
-                    if (quan2 > 0 && quan2 < 100)
+                    try
                     {
-                        break;
+                        quan2 = Convert.ToDouble(quan);
+                        if (quan2 > 0 && quan2 < 100)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write("Quantity more than 0 and less than 100. Enter again: ");
+                        }
                     }
-                    else
+                    catch
                     {
-                        Console.Write("Quantity more than 0 and less than 100. Enter again: ");
+                        Console.Write("Sai Dinh dang, nhap lai di: ");
                     }
+                    
                 }
                 else
                 {
