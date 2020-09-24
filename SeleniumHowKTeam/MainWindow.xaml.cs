@@ -29,11 +29,17 @@ namespace SeleniumHowKTeam
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             FirefoxDriver firefoxDriver = new FirefoxDriver();
-
-            firefoxDriver.Url = "https://www.facebook.com/";
+            //firefoxDriver.Navigate().GoToUrl("ww.fb.com");
+            //firefoxDriver.Url = "https://www.facebook.com/";
+            firefoxDriver.Url = "https://www.howkteam.vn/";
             firefoxDriver.Navigate();
 
-            //firefoxDriver.Navigate().GoToUrl("ww.fb.com");
+            //tìm đối tượng theo ID
+            var searchBar = firefoxDriver.FindElementById("fa fa-search");
+            //gõ giá trị cần tìm vào thanh tìm kiếm
+            searchBar.Click();
+
+           
         }
     }
 }
