@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PhanHe6NhomNghia.Model
 {
-    class DiemSV_mgt
+    class DiemSV
     {
         private string mssv;
         private string idmh;
@@ -16,11 +16,11 @@ namespace PhanHe6NhomNghia.Model
         private float diemtichluy;
         private char diemchu;
 
-        public DiemSV_mgt()
+        public DiemSV()
         {
         }
 
-        public DiemSV_mgt(string mssv, string idmh, string magv, string ma_hk, float diemlan1, float diemlan2, float diemtichluy, char diemchu)
+        public DiemSV(string mssv, string idmh, string magv, string ma_hk, float diemlan1, float diemlan2, float diemtichluy, char diemchu)
         {
             this.Mssv = mssv;
             this.Idmh = idmh;

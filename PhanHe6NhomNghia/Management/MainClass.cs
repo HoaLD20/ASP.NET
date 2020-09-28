@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PhanHe6NhomNghia.Model
+namespace PhanHe6NhomNghia.Management
 {
-    class MonHoc_mgt
+    class MainClass
     {
-
     }
 }
