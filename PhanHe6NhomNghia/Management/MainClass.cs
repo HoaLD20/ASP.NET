@@ -6,5 +6,8 @@ namespace PhanHe6NhomNghia.Management
 {
     class MainClass
     {
-    }
+        public static void Main(string[] args)
+        {
+            
+        }
 }

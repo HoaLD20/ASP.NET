@@ -7,6 +7,18 @@ namespace PhanHe6NhomNghia.Utilities
 {
     class Validation
     {
+
+        public int Menu()
+        {
+            Console.WriteLine("----------MENU----------");
+            Console.WriteLine("1.Input product.");
+            Console.WriteLine("2.Show list product.");
+            Console.WriteLine("0.Exit.");
+            Console.Write("Please choose: ");
+            int choose = ProManager.checkInt();
+            return choose;
+        }
+
         /**
          * ..
          */
