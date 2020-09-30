@@ -33,5 +33,12 @@ namespace PhanHe6NhomNghia.Model
         public int Sotc { get => sotc; set => sotc = value; }
         public int Lythuyet { get => lythuyet; set => lythuyet = value; }
         public int Thuchanh { get => thuchanh; set => thuchanh = value; }
+
+        public void show()
+        {
+            Console.WriteLine("ID mon hoc: {0}", idmh);
+
+        }
+
     }
 }

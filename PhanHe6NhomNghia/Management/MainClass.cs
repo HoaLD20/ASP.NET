@@ -8,6 +8,7 @@ namespace PhanHe6NhomNghia.Management
     {
         public static void Main(string[] args)
         {
-            
+
         }
+    }
 }
