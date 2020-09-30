@@ -8,6 +8,7 @@ namespace PhanHe6.Management
 {
     class DiemSV_Mgt
     {
+        //list diem sv
         private static List<DiemSV> listDiemSV = new List<DiemSV>();
 
         public DiemSV_Mgt() { }
@@ -31,7 +32,7 @@ namespace PhanHe6.Management
             }
             catch (Exception)
             {
-
+                Console.WriteLine("error try catch cua menudiem");
             }
 
             try

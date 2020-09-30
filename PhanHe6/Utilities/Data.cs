@@ -45,7 +45,7 @@ namespace PhanHe6.Utilities
                 String s = "";
                 foreach (DiemSV obj in listDiemSV)
                 {
-                   s+=obj.ToString() + "@";
+                   s+=obj.ToString() + "%";
                 }
                 writer.Write(s);
 

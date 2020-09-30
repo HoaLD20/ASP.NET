@@ -67,6 +67,10 @@ namespace PhanHe6.Model
             Console.WriteLine("Thông tin môn học được thêm thành công");
         }
 
+        /**
+         * update mon hoc
+         *
+         */
         public List<MonHoc> update(List<MonHoc> listMonHoc)
         {
             Console.Write("Nhập ID môn học cần thay đổi: ");
