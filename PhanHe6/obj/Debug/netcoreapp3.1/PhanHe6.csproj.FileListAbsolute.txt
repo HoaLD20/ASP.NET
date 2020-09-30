@@ -1,0 +1,13 @@
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.exe
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.deps.json
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.runtimeconfig.json
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.runtimeconfig.dev.json
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.dll
+E:\Code\C#\PhanHe6\bin\Debug\netcoreapp3.1\PhanHe6.pdb
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.csprojAssemblyReference.cache
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.AssemblyInfoInputs.cache
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.AssemblyInfo.cs
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.csproj.CoreCompileInputs.cache
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.dll
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.pdb
+E:\Code\C#\PhanHe6\obj\Debug\netcoreapp3.1\PhanHe6.genruntimeconfig.cache

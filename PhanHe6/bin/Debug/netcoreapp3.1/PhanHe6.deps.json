@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PhanHe6/1.0.0": {
+        "runtime": {
+          "PhanHe6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhanHe6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
