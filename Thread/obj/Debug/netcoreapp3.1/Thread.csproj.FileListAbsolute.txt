@@ -1,0 +1,13 @@
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.exe
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.deps.json
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.runtimeconfig.json
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.runtimeconfig.dev.json
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.dll
+D:\HoaLD20\ASP.NET\Thread\bin\Debug\netcoreapp3.1\Thread.pdb
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.csprojAssemblyReference.cache
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.AssemblyInfoInputs.cache
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.AssemblyInfo.cs
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.dll
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.pdb
+D:\HoaLD20\ASP.NET\Thread\obj\Debug\netcoreapp3.1\Thread.genruntimeconfig.cache
