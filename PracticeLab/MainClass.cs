@@ -23,17 +23,18 @@ namespace PracticeLab
                         }
                     case 2:
                         {
-                            sV_Manager.Output();
+                            SV_Manager.loaddata();
                             break;
                         }
                     case 0:
                         {
-                            Console.WriteLine("See you again <3.");
-                            Console.WriteLine("\n\n\n-------------------------------END---------------------------------");
+                            SV_Manager sm = new SV_Manager();
+
+                            SV_Manager.savedata();
+                            Console.WriteLine("All data stored.");
                             return;
                         }
                 }
-
             }
         }
     }

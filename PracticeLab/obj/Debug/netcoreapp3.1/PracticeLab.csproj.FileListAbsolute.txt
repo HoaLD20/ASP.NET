@@ -1,4 +1,3 @@
-D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.csprojAssemblyReference.cache
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.AssemblyInfoInputs.cache
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.AssemblyInfo.cs
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.csproj.CoreCompileInputs.cache
@@ -11,3 +10,4 @@ D:\HoaLD20\ASP.NET\PracticeLab\bin\Debug\netcoreapp3.1\PracticeLab.pdb
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.dll
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.pdb
 D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.genruntimeconfig.cache
+D:\HoaLD20\ASP.NET\PracticeLab\obj\Debug\netcoreapp3.1\PracticeLab.csprojAssemblyReference.cache
