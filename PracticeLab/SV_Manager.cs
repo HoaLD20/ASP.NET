@@ -212,7 +212,6 @@ namespace PracticeLab
             string filePath = @"D:\HoaLD20\ASP.NET\PracticeLab\data.txt";
 
             string[] lines;
-            string str;
             Console.WriteLine("===================List Student Information ===================");
             Console.WriteLine("\t|ID\t\t|Name\t|Date of birth\t|Mark");
             if (System.IO.File.Exists(filePath))
@@ -228,7 +227,6 @@ namespace PracticeLab
                         Console.WriteLine();
                         count = 0;
                     }
-                    
                 }
             }
             else

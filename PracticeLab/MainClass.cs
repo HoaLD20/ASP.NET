@@ -28,8 +28,6 @@ namespace PracticeLab
                         }
                     case 0:
                         {
-                            SV_Manager sm = new SV_Manager();
-
                             SV_Manager.savedata();
                             Console.WriteLine("All data stored.");
                             return;
