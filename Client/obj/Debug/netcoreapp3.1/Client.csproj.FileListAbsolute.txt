@@ -1,0 +1,12 @@
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.exe
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.deps.json
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.json
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.dev.json
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.dll
+D:\HoaLD20\ASP.NET\Client\bin\Debug\netcoreapp3.1\Client.pdb
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.dll
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.pdb
+D:\HoaLD20\ASP.NET\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache
