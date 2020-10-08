@@ -8,3 +8,8 @@ D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.csproj.CoreCompileInputs.cach
 D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.exe
 D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.pdb
 D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.Form1.resources
+D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.Edit.resources
+D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.New.resources
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\Micron.dll
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\MySql.Data.dll
+D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.csproj.CopyComplete
