@@ -70,5 +70,14 @@ namespace CRUDMonHoc
         {
             loadData();
         }
+
+        private void tableData_DoubleClick(object sender, EventArgs e)
+        {
+
+            Edit edit = new Edit();
+            edit.tbID.Text = this.tableData.CurrentRow.Cells[0].Value.ToString();
+            new Edit().ShowDialog();
+           
+        }
     }
 }

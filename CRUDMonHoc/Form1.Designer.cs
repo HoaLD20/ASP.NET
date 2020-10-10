@@ -157,6 +157,7 @@
             this.tableData.Size = new System.Drawing.Size(1126, 359);
             this.tableData.TabIndex = 0;
             this.tableData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.tableData.DoubleClick += new System.EventHandler(this.tableData_DoubleClick);
             // 
             // Form1
             // 

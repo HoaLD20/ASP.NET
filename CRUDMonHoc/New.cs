@@ -33,7 +33,7 @@ namespace CRUDMonHoc
         }
         private void Insert()
         {
-            mh.IDMH = txtMMH.Text.Trim();
+            mh.IDMH = txtID.Text.Trim();
             mh.MA_HK = txtMMH.Text.Trim();
             mh.TenMH = txtTenMH.Text.Trim();
             mh.SoTC = Convert.ToInt32(txtTC.Text.Trim());
@@ -42,14 +42,11 @@ namespace CRUDMonHoc
 
             using (MonhocEntities db = new MonhocEntities())
             {
-               
                 db.Monhocs.Add(mh);
                 db.SaveChanges();
             }
-
             Form1 f = new Form1();
-            
-            MessageBox.Show("Submitted Successfully");
+            MessageBox.Show("Added Successfully");
             this.Hide();
             f.loadData();
         }
@@ -62,11 +59,10 @@ namespace CRUDMonHoc
         {
             Insert();  
         }
-        private void btnCancle_Click(object sender, EventArgs e)
-        {
-            txtTenMH.Text = txtLT.Text = txtMMH.Text = txtTC.Text = txtTH.Text = "";
-        }
 
-        
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
