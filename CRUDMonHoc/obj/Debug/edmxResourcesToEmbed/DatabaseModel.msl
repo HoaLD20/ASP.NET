@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MonhocModelStoreContainer" CdmEntityContainer="MonhocEntities">
+    <EntitySetMapping Name="Monhocs">
+      <EntityTypeMapping TypeName="MonhocModel.Monhoc">
+        <MappingFragment StoreEntitySet="Monhoc">
+          <ScalarProperty Name="IDMH" ColumnName="IDMH" />
+          <ScalarProperty Name="MA_HK" ColumnName="MA_HK" />
+          <ScalarProperty Name="TenMH" ColumnName="TenMH" />
+          <ScalarProperty Name="SoTC" ColumnName="SoTC" />
+          <ScalarProperty Name="LyThuyet" ColumnName="LyThuyet" />
+          <ScalarProperty Name="ThucHanh" ColumnName="ThucHanh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

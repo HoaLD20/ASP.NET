@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
+using System.Data.Entity.Core.Objects;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,7 @@ namespace CRUDMonHoc
 {
     public partial class Form1 : Form
     {
+        Monhoc mh = new Monhoc();
         public Form1()
         {
             
@@ -20,42 +23,27 @@ namespace CRUDMonHoc
            
         }
 
-
-        private void loadData(object sender, EventArgs e)
-        {
-
-            try
-            {
-                MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
-                MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM test_db.users", connection);
-                connection.Open();
-                DataSet ds = new DataSet();
-                adapter.Fill(ds, "users");
-                dataGridView1.DataSource = ds.Tables["users"];
-                connection.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-        }
-    
-
-
     private void Form1_Load(object sender, EventArgs e)
         {
-
+            loadData();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        public void loadData()
         {
 
+            //tableData.AutoGenerateColumns = false;
+            using (MonhocEntities db = new MonhocEntities())
+            {
+                tableData.DataSource = db.Monhocs.ToList();
+            }
+        }
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            loadData();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -76,6 +64,11 @@ namespace CRUDMonHoc
         private void button4_Click(object sender, EventArgs e)
         {
             new Edit().ShowDialog();
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            loadData();
         }
     }
 }

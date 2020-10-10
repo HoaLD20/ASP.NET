@@ -13,3 +13,7 @@ D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.New.resources
 D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\Micron.dll
 D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\MySql.Data.dll
 D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.csproj.CopyComplete
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.dll
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.SqlServer.dll
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.xml
+D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.SqlServer.xml
