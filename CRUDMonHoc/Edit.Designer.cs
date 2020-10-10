@@ -1,4 +1,7 @@
-﻿namespace CRUDMonHoc
+﻿using System;
+using System.Windows.Forms;
+
+namespace CRUDMonHoc
 {
     partial class Edit
     {
@@ -100,11 +103,12 @@
             // 
             // tbID
             // 
+            this.tbID.ForeColor = System.Drawing.Color.White;
             this.tbID.Location = new System.Drawing.Point(138, 50);
             this.tbID.Name = "tbID";
             this.tbID.Size = new System.Drawing.Size(258, 22);
             this.tbID.TabIndex = 14;
-            this.tbID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbID.TextChanged += new System.EventHandler(this.tbID_TextChanged);
             // 
             // label7
             // 
@@ -244,7 +248,7 @@
             this.ClientSize = new System.Drawing.Size(535, 633);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Edit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit";
@@ -255,6 +259,61 @@
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void tbTH_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbTC_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbMMH_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbMH_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbLT_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbID_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Edit_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            
         }
 
         #endregion

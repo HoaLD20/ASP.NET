@@ -185,7 +185,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView tableData;
+        public System.Windows.Forms.DataGridView tableData;
         private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnRefresh;

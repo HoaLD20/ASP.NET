@@ -14,87 +14,16 @@ namespace CRUDMonHoc
     {
         public Edit()
         {
-            /*
-            Monhoc mh = new Monhoc();
-
-            using (MonhocEntities db = new MonhocEntities())
-            {
-                mh = db.Monhocs.Where(x => x.IDMH == mh.IDMH).FirstOrDefault();
-
-                tbID.Text = mh.IDMH;
-                tbMMH.Text = mh.MA_HK;
-                tbMH.Text = mh.TenMH;
-                tbTC.Text = Convert.ToString(mh.SoTC);
-                tbTH.Text = Convert.ToString(value: mh.ThucHanh);
-                tbLT.Text = Convert.ToString(value: mh.LyThuyet);
-            }
-            */
             InitializeComponent();
         }
         
-           
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
-            
             this.Hide();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            this.tbID.Text = "hahahhahaha";
-        }
-
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Edit_Load(object sender, EventArgs e)
-        {
-
-          
-        }
-
-        public void tbMMH_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tbMH_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tbTC_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tbLT_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tbTH_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
