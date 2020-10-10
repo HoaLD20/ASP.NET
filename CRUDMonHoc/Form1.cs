@@ -75,7 +75,13 @@ namespace CRUDMonHoc
         {
 
             Edit edit = new Edit();
-            edit.tbID.Text = this.tableData.CurrentRow.Cells[0].Value.ToString();
+            edit.tbID.Text = "hahahhahaha";
+            //this.tableData.CurrentRow.Cells["IDMH"].Value.ToString();
+            edit.tbMMH.Text = this.tableData.CurrentRow.Cells[1].Value.ToString();
+            edit.tbMH.Text = this.tableData.CurrentRow.Cells[2].Value.ToString();
+            edit.tbTC.Text = this.tableData.CurrentRow.Cells[3].Value.ToString();
+            edit.tbTH.Text = this.tableData.CurrentRow.Cells[4].Value.ToString();
+            edit.tbLT.Text = this.tableData.CurrentRow.Cells[5].Value.ToString();
             new Edit().ShowDialog();
            
         }

@@ -31,6 +31,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.tbID = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnCanle = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
@@ -44,8 +46,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tbMMH = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbID = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -98,6 +98,24 @@
             this.panel2.Size = new System.Drawing.Size(511, 523);
             this.panel2.TabIndex = 2;
             // 
+            // tbID
+            // 
+            this.tbID.Location = new System.Drawing.Point(138, 50);
+            this.tbID.Name = "tbID";
+            this.tbID.Size = new System.Drawing.Size(258, 22);
+            this.tbID.TabIndex = 14;
+            this.tbID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(49, 55);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(21, 17);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "ID";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // btnCanle
             // 
             this.btnCanle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -139,6 +157,7 @@
             this.tbTH.Name = "tbTH";
             this.tbTH.Size = new System.Drawing.Size(258, 22);
             this.tbTH.TabIndex = 9;
+            this.tbTH.TextChanged += new System.EventHandler(this.tbTH_TextChanged);
             // 
             // label6
             // 
@@ -155,6 +174,7 @@
             this.tbLT.Name = "tbLT";
             this.tbLT.Size = new System.Drawing.Size(258, 22);
             this.tbLT.TabIndex = 7;
+            this.tbLT.TextChanged += new System.EventHandler(this.tbLT_TextChanged);
             // 
             // label5
             // 
@@ -171,6 +191,7 @@
             this.tbTC.Name = "tbTC";
             this.tbTC.Size = new System.Drawing.Size(258, 22);
             this.tbTC.TabIndex = 5;
+            this.tbTC.TextChanged += new System.EventHandler(this.tbTC_TextChanged);
             // 
             // label4
             // 
@@ -187,6 +208,7 @@
             this.tbMH.Name = "tbMH";
             this.tbMH.Size = new System.Drawing.Size(258, 22);
             this.tbMH.TabIndex = 3;
+            this.tbMH.TextChanged += new System.EventHandler(this.tbMH_TextChanged);
             // 
             // label3
             // 
@@ -203,6 +225,7 @@
             this.tbMMH.Name = "tbMMH";
             this.tbMMH.Size = new System.Drawing.Size(258, 22);
             this.tbMMH.TabIndex = 1;
+            this.tbMMH.TextChanged += new System.EventHandler(this.tbMMH_TextChanged);
             // 
             // label2
             // 
@@ -213,24 +236,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã Học Kì";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // tbID
-            // 
-            this.tbID.Location = new System.Drawing.Point(138, 50);
-            this.tbID.Name = "tbID";
-            this.tbID.Size = new System.Drawing.Size(258, 22);
-            this.tbID.TabIndex = 14;
-            this.tbID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(49, 55);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(21, 17);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "ID";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Edit
             // 

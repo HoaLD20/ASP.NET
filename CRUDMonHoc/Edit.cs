@@ -56,9 +56,9 @@ namespace CRUDMonHoc
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            this.tbID.Text = "hahahhahaha";
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -70,6 +70,31 @@ namespace CRUDMonHoc
         {
 
           
+        }
+
+        public void tbMMH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void tbMH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void tbTC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void tbLT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void tbTH_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
