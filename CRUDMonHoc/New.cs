@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
@@ -50,6 +51,24 @@ namespace CRUDMonHoc
             this.Hide();
             f.loadData();
         }
+   /*     public void delete()
+        {
+            if (MessageBox.Show("Are You Sure to Delete this Record ?", "EF CRUD Operation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                using (MonhocEntities db = new MonhocEntities())
+                {
+                    var entry = db.Entry(mh);
+                    if (entry.State == EntityState.Detached)
+                    {
+                        db.Monhocs.Attach(mh);
+                    }
+                    db.Monhocs.Remove(mh);
+                    MessageBox.Show("Deleted Successfully");
+                }
+            }
+        }
+   */
+
         private void New_Load(object sender, EventArgs e)
         {
 

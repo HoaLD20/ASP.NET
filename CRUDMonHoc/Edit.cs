@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.Entity;
+using System.Data.Linq;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace CRUDMonHoc
@@ -16,14 +12,38 @@ namespace CRUDMonHoc
         {
             InitializeComponent();
         }
-        
 
-        private void button3_Click(object sender, EventArgs e)
+
+        public void button3_Click(object sender, EventArgs e)
         {
 
             this.Hide();
         }
+        public Monhoc mh = new Monhoc();
+        public void btnSave_Click(object sender, EventArgs e)
+        {
+            
+            mh.IDMH = tbIDDDDDDDDDD.Text.Trim();
+            mh.MA_HK = tbMMH.Text.Trim();
+            mh.TenMH = tbMH.Text.Trim();
+            mh.SoTC = Convert.ToInt32(tbTC.Text.Trim());
+            mh.LyThuyet = Convert.ToInt32(tbLT.Text.Trim());
+            mh.ThucHanh = Convert.ToInt32(tbTH.Text.Trim());
 
-        
+            using (MonhocEntities db = new MonhocEntities())
+            {
+                db.Entry(mh).State = EntityState.Modified;
+                db.SaveChanges();
+            }
+        }
+        New n = new New();
+        public void btnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
     }
 }
