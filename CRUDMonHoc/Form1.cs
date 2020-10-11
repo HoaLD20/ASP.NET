@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Windows.Forms;
 namespace CRUDMonHoc
@@ -17,10 +18,10 @@ namespace CRUDMonHoc
         {
 
             InitializeComponent();
-         
+
         }
 
-    private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             loadData();
         }
@@ -36,10 +37,10 @@ namespace CRUDMonHoc
                 list = db.Monhocs.ToList<Monhoc>();
                 hihi = new BindingList<Monhoc>(list);
                 tableData.DataSource = hihi;
-                
+
             }
             //tableData.AutoGenerateColumns = false;
-            
+
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -71,22 +72,23 @@ namespace CRUDMonHoc
             loadData();
         }
         Edit edit = new Edit();
-        
+
         private void tableData_DoubleClick(object sender, EventArgs e)
         {
 
-            
+
             edit.tbIDDDDDDDDDD.Text = this.tableData.CurrentRow.Cells[0].Value.ToString();
             edit.tbMMH.Text = this.tableData.CurrentRow.Cells[1].Value.ToString();
             edit.tbMH.Text = this.tableData.CurrentRow.Cells[2].Value.ToString();
             edit.tbTC.Text = this.tableData.CurrentRow.Cells[3].Value.ToString();
             edit.tbTH.Text = this.tableData.CurrentRow.Cells[4].Value.ToString();
             edit.tbLT.Text = this.tableData.CurrentRow.Cells[5].Value.ToString();
-            
+
             edit.ShowDialog();
-           
+
         }
 
+       
         public Monhoc getValue()
         {
             Monhoc mh2 = new Monhoc();
@@ -99,12 +101,12 @@ namespace CRUDMonHoc
                     mh2.TenMH = this.tableData.CurrentRow.Cells[2].Value.ToString();
                     mh2.SoTC = Convert.ToInt32(this.tableData.CurrentRow.Cells[3].Value.ToString());
                     mh2.ThucHanh = Convert.ToInt32(this.tableData.CurrentRow.Cells[4].Value.ToString());
-                    mh2.LyThuyet = Convert.ToInt32(this.tableData.CurrentRow.Cells[5].Value.ToString());   
+                    mh2.LyThuyet = Convert.ToInt32(this.tableData.CurrentRow.Cells[5].Value.ToString());
                 }
             }
             return mh2;
         }
-
+       
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -112,10 +114,10 @@ namespace CRUDMonHoc
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            /*
             using (var Context = new MonhocEntities())
             {
-                var itemToRemove = Context.Monhocs.Where(a => a.IDMH == getValue().IDMH).FirstOrDefault(); //returns a single item.
+                var itemToRemove = Context.Monhocs.Where(a => a.IDMH == tableData.CurrentRow.Cells[0].Value.ToString()).FirstOrDefault(); //returns a single item.
 
                 if (itemToRemove != null)
                 {
@@ -124,7 +126,25 @@ namespace CRUDMonHoc
                 }
             }
 
+            */
+            using (MonhocEntities db = new MonhocEntities())
+            {
+               
+                ///db.Monhocs.Remove(getValue());
+               /// db.SaveChanges();
+                tableData.Rows.RemoveAt(tableData.CurrentCell.RowIndex);
+                MessageBox.Show("Deleted Successfully");
+            }
 
+
+
+
+        }
+
+
+        private void deleteHelp(object sender, EventArgs e)
+        {
+           
         }
 
 
