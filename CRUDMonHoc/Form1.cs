@@ -130,8 +130,8 @@ namespace CRUDMonHoc
             using (MonhocEntities db = new MonhocEntities())
             {
                
-                ///db.Monhocs.Remove(getValue());
-               /// db.SaveChanges();
+                db.Monhocs.Remove(getValue());
+                db.SaveChanges();
                 tableData.Rows.RemoveAt(tableData.CurrentCell.RowIndex);
                 MessageBox.Show("Deleted Successfully");
             }
