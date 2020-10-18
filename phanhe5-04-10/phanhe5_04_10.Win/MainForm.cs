@@ -24,5 +24,10 @@ namespace phanhe5_04_10.Win
         {
             
         }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

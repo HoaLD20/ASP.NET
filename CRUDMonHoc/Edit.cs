@@ -19,7 +19,7 @@ namespace CRUDMonHoc
 
             this.Hide();
         }
-        public Monhoc mh = new Monhoc();
+        Monhoc mh = new Monhoc();
         public void btnSave_Click(object sender, EventArgs e)
         {
             
@@ -37,13 +37,18 @@ namespace CRUDMonHoc
             }
         }
         New n = new New();
-        public void btnDelete_Click(object sender, EventArgs e)
+
+        private void btnDelete_Click(object sender, EventArgs e)
         {
+            using (MonhocEntities db = new MonhocEntities())
+            {
+                var entry = db.Entry(mh);
+                if(entry.State == EntityState.Detached)    
+                    db.Monhocs.Attach(mh);
+                db.Monhocs.Remove(mh);
+                db.SaveChanges();
 
+            }
         }
-
-
-
-
     }
 }

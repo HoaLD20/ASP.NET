@@ -37,7 +37,6 @@
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.btnNew = new System.Windows.Forms.Button();
             this.tableData = new System.Windows.Forms.DataGridView();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tableData)).BeginInit();
@@ -80,7 +79,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.btnRefresh);
             this.panel2.Controls.Add(this.tbSearch);
@@ -148,18 +146,6 @@
             this.tableData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.tableData.DoubleClick += new System.EventHandler(this.tableData_DoubleClick);
             // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
-            this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDelete.Location = new System.Drawing.Point(444, 40);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(136, 44);
-            this.btnDelete.TabIndex = 12;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -192,7 +178,6 @@
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.Button btnDelete;
     }
 }
 

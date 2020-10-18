@@ -49,6 +49,7 @@ namespace CRUDMonHoc
             this.label3 = new System.Windows.Forms.Label();
             this.tbMMH = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -61,7 +62,7 @@ namespace CRUDMonHoc
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(535, 92);
+            this.panel1.Size = new System.Drawing.Size(510, 92);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -81,6 +82,7 @@ namespace CRUDMonHoc
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.tbIDDDDDDDDDD);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnCanle);
@@ -97,7 +99,7 @@ namespace CRUDMonHoc
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(12, 98);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(511, 523);
+            this.panel2.Size = new System.Drawing.Size(486, 558);
             this.panel2.TabIndex = 2;
             // 
             // tbIDDDDDDDDDD
@@ -121,7 +123,7 @@ namespace CRUDMonHoc
             // 
             this.btnCanle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnCanle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCanle.Location = new System.Drawing.Point(308, 416);
+            this.btnCanle.Location = new System.Drawing.Point(334, 446);
             this.btnCanle.Name = "btnCanle";
             this.btnCanle.Size = new System.Drawing.Size(136, 44);
             this.btnCanle.TabIndex = 12;
@@ -133,7 +135,7 @@ namespace CRUDMonHoc
             // 
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSave.Location = new System.Drawing.Point(109, 416);
+            this.btnSave.Location = new System.Drawing.Point(18, 446);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(136, 44);
             this.btnSave.TabIndex = 10;
@@ -227,11 +229,23 @@ namespace CRUDMonHoc
             this.label2.Text = "Mã Học Kì";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnDelete.Location = new System.Drawing.Point(177, 446);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(136, 44);
+            this.btnDelete.TabIndex = 15;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(535, 633);
+            this.ClientSize = new System.Drawing.Size(510, 668);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -318,5 +332,6 @@ namespace CRUDMonHoc
         public System.Windows.Forms.Button btnCanle;
         private System.Windows.Forms.Label label7;
         public TextBox tbIDDDDDDDDDD;
+        public Button btnDelete;
     }
 }
