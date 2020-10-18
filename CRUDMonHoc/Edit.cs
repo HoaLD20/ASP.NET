@@ -40,13 +40,17 @@ namespace CRUDMonHoc
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            using (MonhocEntities db = new MonhocEntities())
+            if (MessageBox.Show("Are You Sure to Delete this Record ?", "EF CRUD Operation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                using (MonhocEntities db = new MonhocEntities())
             {
                 var entry = db.Entry(mh);
                 if(entry.State == EntityState.Detached)    
                     db.Monhocs.Attach(mh);
                 db.Monhocs.Remove(mh);
                 db.SaveChanges();
+                    MessageBox.Show("Deleted Successfully");
+                }
 
             }
         }
