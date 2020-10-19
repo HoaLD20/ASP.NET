@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeowModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="bacdt">
+    <Key>
+      <PropertyRef Name="IDBDT" />
+    </Key>
+    <Property Name="IDBDT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenBacDT" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="nganhdts" Relationship="Self.fk1" FromRole="bacdt" ToRole="nganhdt" />
+  </EntityType>
+  <EntityType Name="nganhdt">
+    <Key>
+      <PropertyRef Name="MaNganh" />
+    </Key>
+    <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDBDT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNganh" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="bacdt" Relationship="Self.fk1" FromRole="nganhdt" ToRole="bacdt" />
+    <NavigationProperty Name="sinh_vien" Relationship="Self.fk2" FromRole="nganhdt" ToRole="sinh_vien" />
+  </EntityType>
+  <EntityType Name="sinh_vien">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MaLop" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HoTenSV" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgaySinhSV" Type="DateTime" Nullable="false" />
+    <Property Name="GioiTinhSV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DiaChiSV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="nganhdt" Relationship="Self.fk2" FromRole="sinh_vien" ToRole="nganhdt" />
+  </EntityType>
+  <Association Name="fk1">
+    <End Role="bacdt" Type="Self.bacdt" Multiplicity="1" />
+    <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bacdt">
+        <PropertyRef Name="IDBDT" />
+      </Principal>
+      <Dependent Role="nganhdt">
+        <PropertyRef Name="IDBDT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk2">
+    <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="1" />
+    <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nganhdt">
+        <PropertyRef Name="MaNganh" />
+      </Principal>
+      <Dependent Role="sinh_vien">
+        <PropertyRef Name="MaNganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntityMeow" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bacdts" EntityType="Self.bacdt" />
+    <EntitySet Name="nganhdts" EntityType="Self.nganhdt" />
+    <EntitySet Name="sinh_vien" EntityType="Self.sinh_vien" />
+    <AssociationSet Name="fk1" Association="Self.fk1">
+      <End Role="bacdt" EntitySet="bacdts" />
+      <End Role="nganhdt" EntitySet="nganhdts" />
+    </AssociationSet>
+    <AssociationSet Name="fk2" Association="Self.fk2">
+      <End Role="nganhdt" EntitySet="nganhdts" />
+      <End Role="sinh_vien" EntitySet="sinh_vien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

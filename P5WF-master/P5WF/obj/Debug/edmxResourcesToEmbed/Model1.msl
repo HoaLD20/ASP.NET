@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MeowModelStoreContainer" CdmEntityContainer="EntityMeow">
+    <EntitySetMapping Name="bacdts">
+      <EntityTypeMapping TypeName="MeowModel.bacdt">
+        <MappingFragment StoreEntitySet="bacdt">
+          <ScalarProperty Name="IDBDT" ColumnName="IDBDT" />
+          <ScalarProperty Name="TenBacDT" ColumnName="TenBacDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nganhdts">
+      <EntityTypeMapping TypeName="MeowModel.nganhdt">
+        <MappingFragment StoreEntitySet="nganhdt">
+          <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+          <ScalarProperty Name="IDBDT" ColumnName="IDBDT" />
+          <ScalarProperty Name="TenNganh" ColumnName="TenNganh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sinh_vien">
+      <EntityTypeMapping TypeName="MeowModel.sinh_vien">
+        <MappingFragment StoreEntitySet="sinh_vien">
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+          <ScalarProperty Name="MaLop" ColumnName="MaLop" />
+          <ScalarProperty Name="HoTenSV" ColumnName="HoTenSV" />
+          <ScalarProperty Name="NgaySinhSV" ColumnName="NgaySinhSV" />
+          <ScalarProperty Name="GioiTinhSV" ColumnName="GioiTinhSV" />
+          <ScalarProperty Name="DiaChiSV" ColumnName="DiaChiSV" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

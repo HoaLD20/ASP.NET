@@ -1,0 +1,523 @@
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\P5WF.exe.config
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\P5WF.exe
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\P5WF.pdb
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\BouncyCastle.Crypto.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\EntityFramework.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Google.Protobuf.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\MySql.Data.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Renci.SshNet.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Buffers.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Memory.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Ubiety.Dns.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Zstandard.Net.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\EntityFramework.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Google.Protobuf.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\MySql.Data.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\Renci.SshNet.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Buffers.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Memory.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.csprojAssemblyReference.cache
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.Form1.resources
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.Properties.Resources.resources
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.csproj.GenerateResource.cache
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.exe.licenses
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.csproj.CoreCompileInputs.cache
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.csproj.CopyComplete
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.exe
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\obj\Debug\P5WF.pdb
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\CH VLVD Nhựt Tân\baigithub\P5WF\P5WF\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.csprojAssemblyReference.cache
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.BDTForm.resources
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.MainForm.resources
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.Properties.Resources.resources
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.csproj.GenerateResource.cache
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.exe.licenses
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.csproj.CoreCompileInputs.cache
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.exe
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.pdb
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\P5WF.exe.config
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\P5WF.exe
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\P5WF.pdb
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\EntityFramework.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Google.Protobuf.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\MySql.Data.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Renci.SshNet.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Buffers.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Memory.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Zstandard.Net.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\EntityFramework.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Google.Protobuf.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\MySql.Data.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\Renci.SshNet.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Buffers.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Memory.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.csproj.CopyComplete
+C:\Users\HAPPY\source\repos\P5WF\P5WF\obj\Debug\P5WF.NDTForm.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\P5WF.exe.config
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\P5WF.exe
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\P5WF.pdb
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\EntityFramework.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Google.Protobuf.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\MySql.Data.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Renci.SshNet.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Buffers.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Memory.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Ubiety.Dns.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Zstandard.Net.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\EntityFramework.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Google.Protobuf.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\MySql.Data.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\Renci.SshNet.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Buffers.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Memory.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Numerics.Vectors.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.csprojAssemblyReference.cache
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.BDTForm.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.MainForm.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.NDTForm.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.Properties.Resources.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.SVForm.resources
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.csproj.GenerateResource.cache
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.exe.licenses
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.csproj.CoreCompileInputs.cache
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.csproj.CopyComplete
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.exe
+C:\Workbench\Coding\GitHub\P5WF\P5WF\P5WF\obj\Debug\P5WF.pdb
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\P5WF.exe.config
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\P5WF.exe
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\P5WF.pdb
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\EntityFramework.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Google.Protobuf.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\MySql.Data.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Renci.SshNet.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Buffers.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Memory.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Zstandard.Net.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\stdole.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\EntityFramework.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Google.Protobuf.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\MySql.Data.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\Renci.SshNet.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Buffers.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Memory.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.csprojAssemblyReference.cache
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.BDTForm.resources
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.MainForm.resources
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.NDTForm.resources
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.Properties.Resources.resources
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.SVForm.resources
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.csproj.GenerateResource.cache
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.exe.licenses
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.csproj.CopyComplete
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.exe
+C:\Users\root\Desktop\P5WF-master\P5WF\obj\Debug\P5WF.pdb

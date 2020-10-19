@@ -1,0 +1,13 @@
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.exe
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.deps.json
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.json
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.dev.json
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.dll
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\bin\Debug\netcoreapp3.1\Client.pdb
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.dll
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.pdb
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache

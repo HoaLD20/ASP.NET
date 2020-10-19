@@ -1,0 +1,4 @@
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\obj\Debug\netcoreapp3.1\LAB2_CE140469_LeDucHoa.csprojAssemblyReference.cache
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\obj\Debug\netcoreapp3.1\LAB2_CE140469_LeDucHoa.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\obj\Debug\netcoreapp3.1\LAB2_CE140469_LeDucHoa.AssemblyInfo.cs
+C:\Users\root\Desktop\LAB2_CE140469_LeDucHoa\obj\Debug\netcoreapp3.1\LAB2_CE140469_LeDucHoa.csproj.CoreCompileInputs.cache

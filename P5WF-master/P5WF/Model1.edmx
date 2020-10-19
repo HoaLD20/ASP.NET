@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MeowModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="bacdt">
+          <Key>
+            <PropertyRef Name="IDBDT" />
+          </Key>
+          <Property Name="IDBDT" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenBacDT" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="nganhdt">
+          <Key>
+            <PropertyRef Name="MaNganh" />
+          </Key>
+          <Property Name="MaNganh" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="IDBDT" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenNganh" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sinh_vien">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="MaNganh" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="MaLop" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="HoTenSV" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="NgaySinhSV" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="GioiTinhSV" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="DiaChiSV" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SDT" Type="varchar" MaxLength="12" Nullable="false" />
+        </EntityType>
+        <Association Name="fk1">
+          <End Role="bacdt" Type="Self.bacdt" Multiplicity="1" />
+          <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="bacdt">
+              <PropertyRef Name="IDBDT" />
+            </Principal>
+            <Dependent Role="nganhdt">
+              <PropertyRef Name="IDBDT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk2">
+          <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="1" />
+          <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nganhdt">
+              <PropertyRef Name="MaNganh" />
+            </Principal>
+            <Dependent Role="sinh_vien">
+              <PropertyRef Name="MaNganh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MeowModelStoreContainer">
+          <EntitySet Name="bacdt" EntityType="Self.bacdt" Schema="phanhe5-04-10" store:Type="Tables" />
+          <EntitySet Name="nganhdt" EntityType="Self.nganhdt" Schema="phanhe5-04-10" store:Type="Tables" />
+          <EntitySet Name="sinh_vien" EntityType="Self.sinh_vien" Schema="phanhe5-04-10" store:Type="Tables" />
+          <AssociationSet Name="fk1" Association="Self.fk1">
+            <End Role="bacdt" EntitySet="bacdt" />
+            <End Role="nganhdt" EntitySet="nganhdt" />
+          </AssociationSet>
+          <AssociationSet Name="fk2" Association="Self.fk2">
+            <End Role="nganhdt" EntitySet="nganhdt" />
+            <End Role="sinh_vien" EntitySet="sinh_vien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MeowModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="bacdt">
+          <Key>
+            <PropertyRef Name="IDBDT" />
+          </Key>
+          <Property Name="IDBDT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TenBacDT" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="nganhdts" Relationship="Self.fk1" FromRole="bacdt" ToRole="nganhdt" />
+        </EntityType>
+        <EntityType Name="nganhdt">
+          <Key>
+            <PropertyRef Name="MaNganh" />
+          </Key>
+          <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IDBDT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TenNganh" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="bacdt" Relationship="Self.fk1" FromRole="nganhdt" ToRole="bacdt" />
+          <NavigationProperty Name="sinh_vien" Relationship="Self.fk2" FromRole="nganhdt" ToRole="sinh_vien" />
+        </EntityType>
+        <EntityType Name="sinh_vien">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MaLop" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="HoTenSV" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NgaySinhSV" Type="DateTime" Nullable="false" />
+          <Property Name="GioiTinhSV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DiaChiSV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SDT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="nganhdt" Relationship="Self.fk2" FromRole="sinh_vien" ToRole="nganhdt" />
+        </EntityType>
+        <Association Name="fk1">
+          <End Role="bacdt" Type="Self.bacdt" Multiplicity="1" />
+          <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="bacdt">
+              <PropertyRef Name="IDBDT" />
+            </Principal>
+            <Dependent Role="nganhdt">
+              <PropertyRef Name="IDBDT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk2">
+          <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="1" />
+          <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nganhdt">
+              <PropertyRef Name="MaNganh" />
+            </Principal>
+            <Dependent Role="sinh_vien">
+              <PropertyRef Name="MaNganh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EntityMeow" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="bacdts" EntityType="Self.bacdt" />
+          <EntitySet Name="nganhdts" EntityType="Self.nganhdt" />
+          <EntitySet Name="sinh_vien" EntityType="Self.sinh_vien" />
+          <AssociationSet Name="fk1" Association="Self.fk1">
+            <End Role="bacdt" EntitySet="bacdts" />
+            <End Role="nganhdt" EntitySet="nganhdts" />
+          </AssociationSet>
+          <AssociationSet Name="fk2" Association="Self.fk2">
+            <End Role="nganhdt" EntitySet="nganhdts" />
+            <End Role="sinh_vien" EntitySet="sinh_vien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MeowModelStoreContainer" CdmEntityContainer="EntityMeow">
+          <EntitySetMapping Name="bacdts">
+            <EntityTypeMapping TypeName="MeowModel.bacdt">
+              <MappingFragment StoreEntitySet="bacdt">
+                <ScalarProperty Name="IDBDT" ColumnName="IDBDT" />
+                <ScalarProperty Name="TenBacDT" ColumnName="TenBacDT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="nganhdts">
+            <EntityTypeMapping TypeName="MeowModel.nganhdt">
+              <MappingFragment StoreEntitySet="nganhdt">
+                <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+                <ScalarProperty Name="IDBDT" ColumnName="IDBDT" />
+                <ScalarProperty Name="TenNganh" ColumnName="TenNganh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sinh_vien">
+            <EntityTypeMapping TypeName="MeowModel.sinh_vien">
+              <MappingFragment StoreEntitySet="sinh_vien">
+                <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+                <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+                <ScalarProperty Name="MaLop" ColumnName="MaLop" />
+                <ScalarProperty Name="HoTenSV" ColumnName="HoTenSV" />
+                <ScalarProperty Name="NgaySinhSV" ColumnName="NgaySinhSV" />
+                <ScalarProperty Name="GioiTinhSV" ColumnName="GioiTinhSV" />
+                <ScalarProperty Name="DiaChiSV" ColumnName="DiaChiSV" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

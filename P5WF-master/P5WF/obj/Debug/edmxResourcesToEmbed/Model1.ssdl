@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeowModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bacdt">
+    <Key>
+      <PropertyRef Name="IDBDT" />
+    </Key>
+    <Property Name="IDBDT" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenBacDT" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="nganhdt">
+    <Key>
+      <PropertyRef Name="MaNganh" />
+    </Key>
+    <Property Name="MaNganh" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDBDT" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenNganh" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sinh_vien">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="MaNganh" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="MaLop" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="HoTenSV" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="NgaySinhSV" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="GioiTinhSV" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DiaChiSV" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SDT" Type="varchar" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <Association Name="fk1">
+    <End Role="bacdt" Type="Self.bacdt" Multiplicity="1" />
+    <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bacdt">
+        <PropertyRef Name="IDBDT" />
+      </Principal>
+      <Dependent Role="nganhdt">
+        <PropertyRef Name="IDBDT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk2">
+    <End Role="nganhdt" Type="Self.nganhdt" Multiplicity="1" />
+    <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nganhdt">
+        <PropertyRef Name="MaNganh" />
+      </Principal>
+      <Dependent Role="sinh_vien">
+        <PropertyRef Name="MaNganh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MeowModelStoreContainer">
+    <EntitySet Name="bacdt" EntityType="Self.bacdt" Schema="phanhe5-04-10" store:Type="Tables" />
+    <EntitySet Name="nganhdt" EntityType="Self.nganhdt" Schema="phanhe5-04-10" store:Type="Tables" />
+    <EntitySet Name="sinh_vien" EntityType="Self.sinh_vien" Schema="phanhe5-04-10" store:Type="Tables" />
+    <AssociationSet Name="fk1" Association="Self.fk1">
+      <End Role="bacdt" EntitySet="bacdt" />
+      <End Role="nganhdt" EntitySet="nganhdt" />
+    </AssociationSet>
+    <AssociationSet Name="fk2" Association="Self.fk2">
+      <End Role="nganhdt" EntitySet="nganhdt" />
+      <End Role="sinh_vien" EntitySet="sinh_vien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
