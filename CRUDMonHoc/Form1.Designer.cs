@@ -32,9 +32,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.tbSearch = new System.Windows.Forms.TextBox();
             this.btnNew = new System.Windows.Forms.Button();
             this.tableData = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
@@ -53,6 +51,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1141, 92);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnExit
             // 
@@ -79,9 +78,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.btnRefresh);
-            this.panel2.Controls.Add(this.tbSearch);
             this.panel2.Controls.Add(this.btnNew);
             this.panel2.Controls.Add(this.tableData);
             this.panel2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
@@ -90,14 +87,6 @@
             this.panel2.Size = new System.Drawing.Size(1126, 493);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(841, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 22);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Search";
             // 
             // btnRefresh
             // 
@@ -110,14 +99,6 @@
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // tbSearch
-            // 
-            this.tbSearch.Location = new System.Drawing.Point(923, 40);
-            this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(173, 22);
-            this.tbSearch.TabIndex = 2;
-            this.tbSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnNew
             // 
@@ -161,7 +142,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tableData)).EndInit();
             this.ResumeLayout(false);
 
@@ -173,11 +153,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         public System.Windows.Forms.DataGridView tableData;
-        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

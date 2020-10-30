@@ -31,10 +31,10 @@ namespace SeleniumHowKTeam
             FirefoxDriver firefoxDriver = new FirefoxDriver();
             //bài 1
 
-            //firefoxDriver.Navigate().GoToUrl("ww.fb.com");
-            //firefoxDriver.Url = "https://www.facebook.com/";
+            firefoxDriver.Navigate().GoToUrl("ww.fb.com");
+            firefoxDriver.Url = "https://www.facebook.com/";
             //firefoxDriver.Url = "https://www.howkteam.vn/";
-            //firefoxDriver.Navigate();
+            firefoxDriver.Navigate();
 
             //tìm đối tượng theo ID
             //tìm theo class name chỉ tìm dc với những tên ko có khoảng trắng
@@ -45,7 +45,7 @@ namespace SeleniumHowKTeam
 
             //bài 2
 
-            firefoxDriver.ExecuteScript("var content = document.getElementsByClassName('contentpagetop')[0].children[0].innerHTML;alert(content);");
+            //firefoxDriver.ExecuteScript("var content = document.getElementsByClassName('contentpagetop')[0].children[0].innerHTML;alert(content);");
 
         }
     }

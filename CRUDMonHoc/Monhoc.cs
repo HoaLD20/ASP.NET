@@ -14,20 +14,6 @@ namespace CRUDMonHoc
     
     public partial class Monhoc
     {
-        public Monhoc()
-        {
-        }
-
-        public Monhoc(string iDMH, string mA_HK, string tenMH, int soTC, int lyThuyet, int thucHanh)
-        {
-            IDMH = iDMH;
-            MA_HK = mA_HK;
-            TenMH = tenMH;
-            SoTC = soTC;
-            LyThuyet = lyThuyet;
-            ThucHanh = thucHanh;
-        }
-
         public string IDMH { get; set; }
         public string MA_HK { get; set; }
         public string TenMH { get; set; }

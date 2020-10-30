@@ -16,3 +16,4 @@ D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.dll
 D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.SqlServer.dll
 D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.xml
 D:\HoaLD20\ASP.NET\CRUDMonHoc\bin\Debug\EntityFramework.SqlServer.xml
+D:\HoaLD20\ASP.NET\CRUDMonHoc\obj\Debug\CRUDMonHoc.csprojAssemblyReference.cache

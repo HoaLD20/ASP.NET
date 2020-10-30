@@ -93,6 +93,8 @@ namespace CRUDMonHoc
                     edit.tbTC.Text = this.tableData.CurrentRow.Cells[3].Value.ToString();
                     edit.tbTH.Text = this.tableData.CurrentRow.Cells[4].Value.ToString();
                     edit.tbLT.Text = this.tableData.CurrentRow.Cells[5].Value.ToString();
+                    //string lt = this.tableData.CurrentRow.Cells[5].Value.ToString();
+                    //edit.tbLT.Text = lt;
 
                     edit.ShowDialog();
                 }
@@ -150,6 +152,9 @@ namespace CRUDMonHoc
            
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
