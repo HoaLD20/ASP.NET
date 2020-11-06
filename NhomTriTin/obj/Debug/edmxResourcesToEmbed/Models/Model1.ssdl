@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SINH_VIENModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DiemSV">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="nchar" MaxLength="12" Nullable="false" />
+    <Property Name="IDMH" Type="nchar" MaxLength="50" />
+    <Property Name="MaGV" Type="nchar" MaxLength="12" />
+    <Property Name="Ma_HK" Type="nchar" MaxLength="10" />
+    <Property Name="DiemLan1" Type="float" />
+    <Property Name="DiemLan2" Type="float" />
+    <Property Name="DiemTichLuy" Type="float" />
+    <Property Name="DiemChu" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SINH_VIEN.dbo.GiangVien' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="GiangVien">
+    <Key>
+      <PropertyRef Name="TrinhDoGV" />
+    </Key>
+    <Property Name="MaGV" Type="nchar" MaxLength="12" />
+    <Property Name="TenGV" Type="nchar" MaxLength="30" />
+    <Property Name="GioiTinhGV" Type="int" />
+    <Property Name="NamSinhGV" Type="datetime" />
+    <Property Name="TrinhDoGV" Type="nchar" MaxLength="15" Nullable="false" />
+    <Property Name="EmailGV" Type="nchar" MaxLength="30" />
+    <Property Name="SDT" Type="nchar" MaxLength="12" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'SINH_VIEN.dbo.MonHoc' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="MonHoc">
+          <Property Name="IDMH" Type="nchar" MaxLength="10" />
+          <Property Name="MA_HK" Type="nchar" MaxLength="10" />
+          <Property Name="TenMH" Type="nchar" MaxLength="50" />
+          <Property Name="SoTC" Type="int" />
+          <Property Name="LyThuyet" Type="int" />
+          <Property Name="ThucHanh" Type="int" />
+        </EntityType>-->
+  <EntityContainer Name="SINH_VIENModelStoreContainer">
+    <EntitySet Name="DiemSV" EntityType="Self.DiemSV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GiangVien" EntityType="Self.GiangVien" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [GiangVien].[MaGV] AS [MaGV], 
+    [GiangVien].[TenGV] AS [TenGV], 
+    [GiangVien].[GioiTinhGV] AS [GioiTinhGV], 
+    [GiangVien].[NamSinhGV] AS [NamSinhGV], 
+    [GiangVien].[TrinhDoGV] AS [TrinhDoGV], 
+    [GiangVien].[EmailGV] AS [EmailGV], 
+    [GiangVien].[SDT] AS [SDT]
+    FROM [dbo].[GiangVien] AS [GiangVien]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

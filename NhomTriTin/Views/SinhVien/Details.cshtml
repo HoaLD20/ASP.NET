@@ -1,0 +1,75 @@
+﻿@model NhomTriTin.Models.DiemSV
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DiemSV</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ma_HK)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ma_HK)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemLan1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemLan1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemLan2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemLan2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemTichLuy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemTichLuy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiemChu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiemChu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MSSV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

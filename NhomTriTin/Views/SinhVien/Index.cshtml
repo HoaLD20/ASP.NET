@@ -1,0 +1,70 @@
+﻿@model IEnumerable<NhomTriTin.Models.DiemSV>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDMH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ma_HK)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemLan1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemLan2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemTichLuy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiemChu)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ma_HK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemLan1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemLan2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemTichLuy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiemChu)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {MSSV = item.MSSV }) |
+            @Html.ActionLink("Details", "Details", new { MSSV = item.MSSV }) |
+            @Html.ActionLink("Delete", "Delete", new { MSSV = item.MSSV })
+        </td>
+    </tr>
+}
+
+</table>

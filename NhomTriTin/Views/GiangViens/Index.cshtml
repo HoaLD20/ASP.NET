@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NhomTriTin.Models.GiangVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinhGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NamSinhGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailGV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SDT)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiTinhGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NamSinhGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailGV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TrinhDoGV }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TrinhDoGV }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TrinhDoGV })
+        </td>
+    </tr>
+}
+
+</table>

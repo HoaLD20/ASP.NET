@@ -1,0 +1,75 @@
+﻿@model IEnumerable<P5WF.sinh_vien>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MSSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaNganh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaLop)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgaySinhSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiTinhSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiaChiSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SDT)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MSSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaNganh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaLop)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoTenSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgaySinhSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiTinhSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiaChiSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

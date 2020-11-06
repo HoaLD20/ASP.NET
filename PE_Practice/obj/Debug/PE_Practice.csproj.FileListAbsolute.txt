@@ -1,0 +1,11 @@
+D:\HoaLD20\ASP.NET\PE_Practice\bin\Debug\PE_Practice.exe.config
+D:\HoaLD20\ASP.NET\PE_Practice\bin\Debug\PE_Practice.exe
+D:\HoaLD20\ASP.NET\PE_Practice\bin\Debug\PE_Practice.pdb
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.csprojAssemblyReference.cache
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.CRUD.resources
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.Form1.resources
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.Properties.Resources.resources
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.csproj.GenerateResource.cache
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.exe
+D:\HoaLD20\ASP.NET\PE_Practice\obj\Debug\PE_Practice.pdb

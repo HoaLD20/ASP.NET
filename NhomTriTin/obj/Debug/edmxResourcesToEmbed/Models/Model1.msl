@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SINH_VIENModelStoreContainer" CdmEntityContainer="SINH_VIENEntities">
+    <EntitySetMapping Name="DiemSVs">
+      <EntityTypeMapping TypeName="SINH_VIENModel.DiemSV">
+        <MappingFragment StoreEntitySet="DiemSV">
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="IDMH" ColumnName="IDMH" />
+          <ScalarProperty Name="MaGV" ColumnName="MaGV" />
+          <ScalarProperty Name="Ma_HK" ColumnName="Ma_HK" />
+          <ScalarProperty Name="DiemLan1" ColumnName="DiemLan1" />
+          <ScalarProperty Name="DiemLan2" ColumnName="DiemLan2" />
+          <ScalarProperty Name="DiemTichLuy" ColumnName="DiemTichLuy" />
+          <ScalarProperty Name="DiemChu" ColumnName="DiemChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiangViens">
+      <EntityTypeMapping TypeName="SINH_VIENModel.GiangVien">
+        <MappingFragment StoreEntitySet="GiangVien">
+          <ScalarProperty Name="MaGV" ColumnName="MaGV" />
+          <ScalarProperty Name="TenGV" ColumnName="TenGV" />
+          <ScalarProperty Name="GioiTinhGV" ColumnName="GioiTinhGV" />
+          <ScalarProperty Name="NamSinhGV" ColumnName="NamSinhGV" />
+          <ScalarProperty Name="TrinhDoGV" ColumnName="TrinhDoGV" />
+          <ScalarProperty Name="EmailGV" ColumnName="EmailGV" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

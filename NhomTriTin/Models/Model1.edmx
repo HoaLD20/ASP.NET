@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SINH_VIENModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DiemSV">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="nchar" MaxLength="12" Nullable="false" />
+          <Property Name="IDMH" Type="nchar" MaxLength="50" />
+          <Property Name="MaGV" Type="nchar" MaxLength="12" />
+          <Property Name="Ma_HK" Type="nchar" MaxLength="10" />
+          <Property Name="DiemLan1" Type="float" />
+          <Property Name="DiemLan2" Type="float" />
+          <Property Name="DiemTichLuy" Type="float" />
+          <Property Name="DiemChu" Type="nchar" MaxLength="50" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SINH_VIEN.dbo.GiangVien' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="GiangVien">
+          <Key>
+            <PropertyRef Name="TrinhDoGV" />
+          </Key>
+          <Property Name="MaGV" Type="nchar" MaxLength="12" />
+          <Property Name="TenGV" Type="nchar" MaxLength="30" />
+          <Property Name="GioiTinhGV" Type="int" />
+          <Property Name="NamSinhGV" Type="datetime" />
+          <Property Name="TrinhDoGV" Type="nchar" MaxLength="15" Nullable="false" />
+          <Property Name="EmailGV" Type="nchar" MaxLength="30" />
+          <Property Name="SDT" Type="nchar" MaxLength="12" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'SINH_VIEN.dbo.MonHoc' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="MonHoc">
+          <Property Name="IDMH" Type="nchar" MaxLength="10" />
+          <Property Name="MA_HK" Type="nchar" MaxLength="10" />
+          <Property Name="TenMH" Type="nchar" MaxLength="50" />
+          <Property Name="SoTC" Type="int" />
+          <Property Name="LyThuyet" Type="int" />
+          <Property Name="ThucHanh" Type="int" />
+        </EntityType>-->
+        <EntityContainer Name="SINH_VIENModelStoreContainer">
+          <EntitySet Name="DiemSV" EntityType="Self.DiemSV" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GiangVien" EntityType="Self.GiangVien" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [GiangVien].[MaGV] AS [MaGV], 
+    [GiangVien].[TenGV] AS [TenGV], 
+    [GiangVien].[GioiTinhGV] AS [GioiTinhGV], 
+    [GiangVien].[NamSinhGV] AS [NamSinhGV], 
+    [GiangVien].[TrinhDoGV] AS [TrinhDoGV], 
+    [GiangVien].[EmailGV] AS [EmailGV], 
+    [GiangVien].[SDT] AS [SDT]
+    FROM [dbo].[GiangVien] AS [GiangVien]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SINH_VIENModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DiemSV">
+          <Key>
+            <PropertyRef Name="MSSV" />
+          </Key>
+          <Property Name="MSSV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="IDMH" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="MaGV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+          <Property Name="Ma_HK" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="DiemLan1" Type="Double" />
+          <Property Name="DiemLan2" Type="Double" />
+          <Property Name="DiemTichLuy" Type="Double" />
+          <Property Name="DiemChu" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="GiangVien">
+          <Key>
+            <PropertyRef Name="TrinhDoGV" />
+          </Key>
+          <Property Name="MaGV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+          <Property Name="TenGV" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="GioiTinhGV" Type="Int32" />
+          <Property Name="NamSinhGV" Type="DateTime" Precision="3" />
+          <Property Name="TrinhDoGV" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="EmailGV" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="SDT" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="SINH_VIENEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DiemSVs" EntityType="Self.DiemSV" />
+          <EntitySet Name="GiangViens" EntityType="Self.GiangVien" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SINH_VIENModelStoreContainer" CdmEntityContainer="SINH_VIENEntities">
+          <EntitySetMapping Name="DiemSVs">
+            <EntityTypeMapping TypeName="SINH_VIENModel.DiemSV">
+              <MappingFragment StoreEntitySet="DiemSV">
+                <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+                <ScalarProperty Name="IDMH" ColumnName="IDMH" />
+                <ScalarProperty Name="MaGV" ColumnName="MaGV" />
+                <ScalarProperty Name="Ma_HK" ColumnName="Ma_HK" />
+                <ScalarProperty Name="DiemLan1" ColumnName="DiemLan1" />
+                <ScalarProperty Name="DiemLan2" ColumnName="DiemLan2" />
+                <ScalarProperty Name="DiemTichLuy" ColumnName="DiemTichLuy" />
+                <ScalarProperty Name="DiemChu" ColumnName="DiemChu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GiangViens">
+            <EntityTypeMapping TypeName="SINH_VIENModel.GiangVien">
+              <MappingFragment StoreEntitySet="GiangVien">
+                <ScalarProperty Name="MaGV" ColumnName="MaGV" />
+                <ScalarProperty Name="TenGV" ColumnName="TenGV" />
+                <ScalarProperty Name="GioiTinhGV" ColumnName="GioiTinhGV" />
+                <ScalarProperty Name="NamSinhGV" ColumnName="NamSinhGV" />
+                <ScalarProperty Name="TrinhDoGV" ColumnName="TrinhDoGV" />
+                <ScalarProperty Name="EmailGV" ColumnName="EmailGV" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SINH_VIENModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DiemSV">
+    <Key>
+      <PropertyRef Name="MSSV" />
+    </Key>
+    <Property Name="MSSV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="IDMH" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="MaGV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+    <Property Name="Ma_HK" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="DiemLan1" Type="Double" />
+    <Property Name="DiemLan2" Type="Double" />
+    <Property Name="DiemTichLuy" Type="Double" />
+    <Property Name="DiemChu" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="GiangVien">
+    <Key>
+      <PropertyRef Name="TrinhDoGV" />
+    </Key>
+    <Property Name="MaGV" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+    <Property Name="TenGV" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="GioiTinhGV" Type="Int32" />
+    <Property Name="NamSinhGV" Type="DateTime" Precision="3" />
+    <Property Name="TrinhDoGV" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="EmailGV" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="SINH_VIENEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DiemSVs" EntityType="Self.DiemSV" />
+    <EntitySet Name="GiangViens" EntityType="Self.GiangVien" />
+  </EntityContainer>
+</Schema>

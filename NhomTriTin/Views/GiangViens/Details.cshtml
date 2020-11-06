@@ -1,0 +1,67 @@
+﻿@model NhomTriTin.Models.GiangVien
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GiangVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinhGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinhGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamSinhGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamSinhGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailGV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailGV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SDT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDT)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TrinhDoGV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
