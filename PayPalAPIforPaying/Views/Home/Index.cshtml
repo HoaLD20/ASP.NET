@@ -1,0 +1,26 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Thanh Toan Paypal</title>
+    <style type="text/css">
+        body {
+            background: #F5F5F5;
+            text-align: center
+        }
+    </style>
+</head>
+<body onload="document.paypal.submit()">
+    <form name="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" title="Nguyen Van ABC">
+        <h1>Giỏ hàng của bạn đang được chuyển tới dịch vụ thanh toán Paypal</h1>
+        <input type="image" src="../Images/Design/installation_progress.gif" name="submit" alt="Please wait..!" />
+        <input name="business" type="hidden" value="Email-nguoi-ban@gmail.com" />
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="hidden" name="Shipping" value="USD" />
+        <input type="hidden" name="upload" value="1" />
+        <input type="hidden" name="rm" value="2" />
+        <input type="hidden" name="no_note" value="1" />
+        <input type="hidden" name="cs" value="0" />
+        <asp:PlaceHolder ID="plHej" runat="server"></asp:PlaceHolder>
+    </form>
+</body>
+</html>

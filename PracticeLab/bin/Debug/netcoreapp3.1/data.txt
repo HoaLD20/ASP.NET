@@ -1,3 +1,0 @@
- Hello and Welcome
- It is the first content
- of the text file mytest.txt

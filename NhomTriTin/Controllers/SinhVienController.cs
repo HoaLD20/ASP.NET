@@ -37,7 +37,6 @@ namespace NhomTriTin.Controllers
         [HttpPost]
         public ActionResult Create(DiemSV diemsv)
         {
-
             using (SINH_VIENEntities sinhvienE = new SINH_VIENEntities())
             {
                 if (sinhvienE.DiemSVs.Any(x => x.MSSV.Equals(diemsv.MSSV)))
@@ -64,23 +63,31 @@ namespace NhomTriTin.Controllers
             }
         }
         // GET: SinhVien/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(String MSSV)
         {
-            return View();
+            using (SINH_VIENEntities svEn = new SINH_VIENEntities())
+            {
+                DiemSV diem = svEn.DiemSVs.Where(x => x.MSSV.Equals(MSSV)).FirstOrDefault();
+                diem.MaGV = diem.MaGV.Trim();
+                diem.Ma_HK = diem.Ma_HK.Trim();
+                diem.MSSV = diem.MSSV.Trim();
+                diem.DiemChu = diem.DiemChu.Trim();
+                diem.IDMH = diem.IDMH.Trim();
+                return View(diem);
+            }
         }
 
         // POST: SinhVien/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(String MSSV, DiemSV diem)
         {
-
-           
-
-
             try
             {
-                // TODO: Add update logic here
-
+                using(SINH_VIENEntities svEn = new SINH_VIENEntities())
+                {
+                    svEn.Entry(diem).State = System.Data.Entity.EntityState.Modified;
+                    svEn.SaveChanges();
+                }
                 return RedirectToAction("Index");
             }
             catch

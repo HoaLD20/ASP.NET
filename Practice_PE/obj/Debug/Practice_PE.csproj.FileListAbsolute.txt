@@ -1,0 +1,15 @@
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\Practice_PE.exe.config
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\Practice_PE.exe
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\Practice_PE.pdb
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\EntityFramework.dll
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\EntityFramework.SqlServer.dll
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\EntityFramework.xml
+D:\HoaLD20\ASP.NET\Practice_PE\bin\Debug\EntityFramework.SqlServer.xml
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.csprojAssemblyReference.cache
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.Form1.resources
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.Properties.Resources.resources
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.csproj.GenerateResource.cache
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.csproj.CoreCompileInputs.cache
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.csproj.CopyComplete
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.exe
+D:\HoaLD20\ASP.NET\Practice_PE\obj\Debug\Practice_PE.pdb
